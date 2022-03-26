@@ -2,73 +2,73 @@
     {
        "id": "A11",
        "name": "Corsair HS60 PRO",
-       "price": 6499,
+       "price": 649,
        "img": "./f-img/1..jpg"
     },
     {
        "id": "B22",
-       "name": "Corsair Void Elite",
-       "price": 7999,
+       "name": "HyperX Cloud II",
+       "price": 799,
        "img": "./f-img/2..png"
     },
     {
        "id": "C33",
-       "name": "HyperX Cloud II",
-       "price": 9990,
-       "img": "./f-img/3..jpg"
+       "name": "Corsair Void Elite",
+       "price": 999,
+       "img": "./f-img/3..png"
     },
     {
        "id": "D44",
        "name": "Adcom Shuffle Bluetooth Headphone",
-       "price": 6499,
-       "img": "./f-img/4..jpg"
+       "price": 649,
+       "img": "./f-img/4..png"
     },
     {
        "id": "E55",
        "name": "Bengoo G9000",
-       "price": 2699,
-       "img": "./f-img/5..jpg"
+       "price": 269,
+       "img": "./f-img/5..png"
     },
     {
        "id": "F66",
        "name": "PowerA FUSION",
-       "price": 8088,
-       "img": "./f-img/6..jpg"
+       "price": 808,
+       "img": "./f-img/6..png"
     },
     {
        "id": "G77",
        "name": "Nacon official Sony",
-       "price": 1455,
-       "img": "./f-img/7..jpg"
+       "price": 145,
+       "img": "./f-img/7..png"
     },
     {
        "id": "H88",
        "name": "Logitech G PRO X",
-       "price": 24632,
-       "img": "./f-img/8..jpg"
+       "price": 2463,
+       "img": "./f-img/8..png"
     },
     {
        "id": "I99",
        "name": "GBH Y21 Aviation",
-       "price": 19099,
-       "img": "./f-img/9..jpg"
+       "price": 1909,
+       "img": "./f-img/9..png"
     },
     {
        "id": "J10",
        "name": "Logitech G335",
-       "price": 5995,
-       "img": "./f-img/10..jpg"
+       "price": 599,
+       "img": "./f-img/10..png"
     },
     {
        "id": "K20",
        "name": "boAt Immortal IM1000D",
-       "price": 2699,
-       "img": "./f-img/11..jpg"
+       "price": 269,
+       "img": "./f-img/11..png"
     },
     {
        "id": "L30",
        "name": "Redgear Cosmo 7.1",
-       "price": 1990,
-       "img": "./f-img/12..jpg"
+       "price": 199,
+       "img": "./f-img/12..png"
     }
 ]
