@@ -1,6 +1,27 @@
 .cart {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+}
+
+.cart {
+  background-color: aqua;
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin: 10px;
 }
 
 .cart img {
   width: 80px;
+  border: 2px black solid;
+  border-radius: 50px;
+}
+.cart p {
+  text-align: center;
+  padding-right: 10px;
+  font-weight: 500;
+}
+
+.cart button {
+  border-radius: 50px;
 }

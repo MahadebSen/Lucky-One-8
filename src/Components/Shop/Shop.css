@@ -14,3 +14,34 @@
   background-color: beige;
   text-align: center;
 }
+
+.cart-choose {
+  padding: 15px 25px;
+  margin: 20px 0;
+  border-radius: 10px;
+  font-size: medium;
+  font-weight: 600;
+}
+
+.cart-clear {
+  padding: 15px 25px;
+  border-radius: 10px;
+  font-size: medium;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+  .products-section {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 25px;
+    column-gap: 25px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .products-section {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 25px;
+    column-gap: 25px;
+  }
+}

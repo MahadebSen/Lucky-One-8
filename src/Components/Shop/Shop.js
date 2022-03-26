@@ -20,6 +20,24 @@ const Shop = () => {
         setCart(newArray);
     }
 
+    const itemDelete = () => {
+
+    }
+
+    const chooseAny = (arr) => {
+        if (arr.length > 1){
+        const newArr = [];
+        const i = Math.round(Math.random() * arr.length);
+        const newElement = arr[i]
+        newArr.push(newElement);
+        setCart(newArr);
+        }
+    }
+
+    const clear = () => {
+        setCart([])
+    }
+
     return (
         <div className='shop-container'>
             <div className='products-section'>
@@ -40,6 +58,13 @@ const Shop = () => {
                         font={<FontAwesomeIcon icon={faTrash}/>}
                     ></Cart>)
                 }
+                <div>
+                    <button onClick={() => chooseAny(cart)} className='cart-choose'>Choose One For Me</button>
+                </div>
+                <div >
+                    <button onClick={clear} className='cart-clear'>Clear</button>
+                </div>
+                
             </div>
         </div>
     );
