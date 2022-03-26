@@ -1,0 +1,36 @@
+.header {
+  background-color: rgb(255, 214, 127);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header img {
+  padding: 15px 17px;
+  width: 100px;
+  border-radius: 75px;
+}
+.header-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 45px;
+}
+.head-name {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+}
+.header-manu {
+  padding-right: 60px;
+}
+.header-manu a {
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: 500;
+  padding: 0 20px;
+  color: black;
+}
+.header-manu a:hover {
+  background-color: orange;
+  border-radius: 10px;
+}
