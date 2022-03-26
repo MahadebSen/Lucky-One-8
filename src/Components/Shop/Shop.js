@@ -17,7 +17,13 @@ const Shop = () => {
 
     const handleCart = (item) => {
         const newArray = [...cart, item];
-        setCart(newArray);
+        if (newArray.length <= 4){
+            setCart(newArray);
+            
+        }
+        else {
+            return alert("You can't add item more then 4")
+        }
     }
 
     const itemDelete = () => {
