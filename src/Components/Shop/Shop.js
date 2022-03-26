@@ -21,7 +21,7 @@ const Shop = () => {
     }
 
     const itemDelete = () => {
-
+        
     }
 
     const chooseAny = (arr) => {
