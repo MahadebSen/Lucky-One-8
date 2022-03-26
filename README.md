@@ -1,6 +1,6 @@
 # HeadPhone Hub
 
-Live site link:
+Live site link: https://effulgent-youtiao-54e0f7.netlify.app
 
 ## Available Scripts
 
